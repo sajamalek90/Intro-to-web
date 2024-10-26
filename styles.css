@@ -88,6 +88,30 @@ ul {
     padding-left: 20px;
 }
 
+.links {
+    margin-left: 700px;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--green);
+}
+
+.links a:hover {
+    color: var(--orange);
+}
+
+.links li {
+    list-style: none;
+}
+
+
+/* Media Query */
+@media (max-width: 1024px) {
+    .cont {
+        margin: 20px auto;
+    }
+}
 
 @media (max-width: 480px) {
     .container .title {
@@ -101,10 +125,6 @@ ul {
     .cont {
         max-width: 480px;
         padding: 15px;
-        margin-bottom: 40px;
-    }
-
-    .cont-right {
-        margin-left: 20px;
+        margin: 20px auto;
     }
 }
